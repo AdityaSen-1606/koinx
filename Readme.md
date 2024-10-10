@@ -68,4 +68,14 @@ To deploy this project clone this github repo
 ```bash
   node index.js
 ```
+OR
+
+Use below link as deployment and use it as prefix for following routes:
+```bash
+https://koinx-49ac.onrender.com
+```
+```
+Stats GET https://koinx-49ac.onrender.com/api/v1/stats?coin=bitcoin
+Deviation GET https://koinx-49ac.onrender.com/api/v1/deviation?coin=bitcoin
+```
 
